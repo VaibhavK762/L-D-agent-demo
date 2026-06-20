@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB
+chroma_db/
+chroma/
+
+# Vector Stores
+vectordb/
+
+# Cache
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large generated files
+*.pkl
+*.joblib
+
+# Keep documents if desired
+# Uncomment if you DON'T want PDFs in GitHub
+# data/documents/
+
+# Keep raw datasets if desired
+# Uncomment if datasets are large
+# data/raw/
