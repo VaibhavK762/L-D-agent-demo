@@ -7,6 +7,9 @@ This project is a simple Agentic AI prototype developed for Learning & Developme
 The agent answers employee queries by selecting the appropriate knowledge source and using an LLM to generate context-aware responses. Unlike a traditional chatbot that relies only on model knowledge, this agent retrieves information from company-specific data sources before generating a response.
 
 ---
+## Video
+
+
 
 ## Features
 
@@ -41,19 +44,19 @@ The agent:
 4. Provides the retrieved context to the LLM.
 5. Generates a contextualized response.
 
----
+
 
 ## Architecture
 
-```text
-User Query
-     |
-     v
- L&D AI Agent
-     |
-     v
- Tool Selection
-     |
+        ```text
+        User Query
+             |
+             v
+         L&D AI Agent
+             |
+             v
+        Tool Selection
+             |
  +-----------+-----------+
  |                       |
  v                       v
@@ -62,7 +65,7 @@ Skills DB         Onboarding Guide
  +-----------+-----------+
              |
              v
-         Groq LLM
+          Groq LLM
              |
              v
        Final Response
