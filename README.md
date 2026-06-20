@@ -7,9 +7,9 @@ This project is a simple Agentic AI prototype developed for Learning & Developme
 The agent answers employee queries by selecting the appropriate knowledge source and using an LLM to generate context-aware responses. Unlike a traditional chatbot that relies only on model knowledge, this agent retrieves information from company-specific data sources before generating a response.
 
 ---
-## Video
+## Demo Video
 
-
+[Watch Demo Video](./Demo%20Video/demo.mp4)
 
 ## Features
 
